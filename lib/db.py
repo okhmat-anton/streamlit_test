@@ -1,4 +1,4 @@
-import snowflake.connector as snow
+# import snowflake.connector as snow
 import os
 
 PASSWORD = os.getenv('SNOWSQL_PWD')
