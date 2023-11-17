@@ -16,7 +16,7 @@ class LoadBarProgress:
                 # Update the progress bar with each iteration.
                 latest_iteration.text(f'Iteration {i + 1}')
                 bar.progress(i + 1)
-                # time.sleep(0.01)
+                time.sleep(0.05)
 
             bar.empty()
             latest_iteration.empty()
